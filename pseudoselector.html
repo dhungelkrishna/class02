@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        input {
+            line-height: 36px;
+            color: red;
+            font-size: 32px;
+        }
+
+
+
+        /* this is pseudo element.  */
+        input::placeholder {
+            background-color: greenyellow;
+        }
+
+        .mydiv {
+            width: 200px;
+            height: 550px;
+            background-color: yellowgreen;
+        }
+
+
+        /* pleudo element */
+        .mydiv::before {
+            content: "welcome. ";
+            color: red;
+        }
+
+
+                /* pleudo element */
+
+        li::before {
+            content: "😍";
+        }
+
+
+                /* pleudo element */
+
+
+        .mydiv::first-letter {
+            font-size: 42px;
+            color: darkblue;
+            font-weight: bolder;
+        }
+
+        li:nth-child(2n) {
+        color: red;
+    }
+
+    </style>
+</head>
+<body>
+
+
+
+    <!-- 
+    
+    
+    pseuto class and pseudo selector. -->
+
+
+
+
+    <input type="text" placeholder="this is text. ">
+
+
+    <textarea name="coment " id="comment" rows="25" cols="25"></textarea>
+
+    <div class="mydiv">
+
+
+
+
+
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus itaque, obcaecati illum autem rerum placeat reprehenderit, magni exercitationem voluptatibus, soluta ea! Eum quam tempore, officia voluptatibus tenetur voluptate quasi aspernatur commodi numquam, laudantium corporis rem reprehenderit laboriosam blanditiis magni cum in. Exercitationem asperiores fugit ullam labore libero veritatis consequatur dignissimos?
+    </div>
+    
+
+    <ul>
+
+        <li> <span class="first-ch">h</span>arry</li>
+        <li>ksldjfal</li>
+        <li>lkjasdlf</li>
+        <li>iouasdj</li>
+        <li>lsdk</li>
+        <li>harry</li>
+    </ul>
+</body>
+</html>
